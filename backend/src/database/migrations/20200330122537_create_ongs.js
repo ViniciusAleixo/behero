@@ -6,7 +6,7 @@ return knex.schema.createTable('ongs', function (table) {
     table.string('email').notNullable();
     table.string('whatsapp').notNullable();
     table.string('city').notNullable();
-    table.string('uf', 3).notNullable();
+    table.string('state', 3).notNullable();
 })
 };
 
